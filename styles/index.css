@@ -61,6 +61,7 @@ margin-right: 25px;
     margin-bottom: 8px;
     }
 
+    /* /TODO:hover */
 .hero-button{
     display: flex;
     gap: 34px;
@@ -74,13 +75,58 @@ margin-right: 25px;
     text-decoration: none;
     border-radius: 10px;
     padding: 20px 46px;
-
 }
+.btn-buy:hover{
+}
+
+
+
 .btn-learn{
     background-color:#D9D9D9 ;
     color:#3D262A ;
     text-decoration: none;
     border-radius: 10px;
     padding: 20px 46px;
+
+}
+
+.features-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+}
+.features-text{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 58px;
+}
+.features-text h2{
+    font-size: 64px;
+
+}
+
+.features-card img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    background-color: #F9F1F2;
+    border-radius: 50%;
+    padding: 15px;
+    margin-bottom: 20px;
+    
+    }
+.features-card{
+    
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 372px;
+    height: 242px;
+    background:linear-gradient(180deg , #FFFFFF,#BD7482 );
+    border-radius: 30px;
+    padding: 20px;
 
 }
